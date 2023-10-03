@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  height: 100vh;
+  direction: rtl !important
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.AdsHeader h1{
+  color: #1981E6;
+  font-size: 30px;
+}
+.AdsHeader h2{
+font-size: 35px;
+font-weight: 700;
+}
+.Ads-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px;
+  text-align: center;
+}
+.Ads-content h1{
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+  padding: 10px 0px;
+}
+.Ads-content p{
+width: 80%;
+}
+
+.manage-ads{
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.service-layout{
+  background-color: #f9f9f9;
+}
+.service-layout h1{
+  color: #1981E6;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.parent-banner{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 18px;
+}
+
+@media (min-width: 992px) { 
+.parent-banner{
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  transform: skewX(-15deg);
+  -webkit-transform: skewX(-15deg);
+  -moz-transform: skewX(-15deg);
+  -ms-transform: skewX(-15deg);
+  -o-transform: skewX(-15deg);
+  background-color: #1981E6;
+  border-radius: 9% 91% 10% 90% / 87% 0% 100% 13% ;
+  -webkit-border-radius: 9% 91% 10% 90% / 87% 0% 100% 13% ;
+  -moz-border-radius: 9% 91% 10% 90% / 87% 0% 100% 13% ;
+  -ms-border-radius: 9% 91% 10% 90% / 87% 0% 100% 13% ;
+  -o-border-radius: 9% 91% 10% 90% / 87% 0% 100% 13% ;
+  min-height: 500px;
+}
+ }
+.parent-banner h1{
+  margin-bottom: 25px;
+}
+.parent-banner p{
+  width: 80%;
+  line-height: 35px;
+}
+.deltawy-service{
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+/* ------------------------------------------------------------------------------ */
